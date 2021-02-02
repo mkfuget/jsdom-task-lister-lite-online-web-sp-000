@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
 
 });
-document.addEventListener("submit", () =>{
-  preventDefault()
+document.addEventListener('submit', (event) =>{
+  event.preventDefault()
 })
